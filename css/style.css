@@ -28,7 +28,6 @@ body {
     justify-content: space-between;
     padding-top: 60px;
     margin-bottom: 90px;
-    z-index: 1;
 }
 .menu-list {
     margin-right: auto;
@@ -297,6 +296,7 @@ body {
     }
     .menu-button-active {
         height: 0;
+        z-index: 2;
     }
     .menu-button-active:before {
         transform: rotate(45deg);
@@ -315,6 +315,7 @@ body {
         background: #9D2929;
         width: 250px;
         padding-bottom: 40px;
+        z-index: 1;
     }
     .header-active {
         display: flex;
